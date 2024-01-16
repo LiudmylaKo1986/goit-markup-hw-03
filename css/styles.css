@@ -293,6 +293,9 @@ body {
     padding-bottom: 120px;
 }
 
+.portfolio-container {
+    display: flex;
+}
 .section-portfolio-title {
     padding-top: 120px;
     margin-bottom: 72px;
@@ -306,10 +309,8 @@ body {
 }
 
 .portfolio-list{
-    background-color: var(--colour-white);
-}   
-.fist, .four {    
-    width: calc((100%-48px) / 3);
+    background-color: var(--colour-white);    
+    width: calc((100% - 48px) / 3);
 }
 
 .container-portfolio{
